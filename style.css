@@ -1,16 +1,227 @@
-@import url(https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700);
 *{
-    margin: 0;
-    padding: 0;
-    font-family: "Fredoka";
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
 }
+
 body{
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+background:#f2f2f2;
 }
-h1{
-    color: green;
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:#20d0c3;
+padding:15px 40px;
+border-radius:15px;
+margin:20px;
+}
+
+.logo h2{
+color:#000;
+}
+
+.logo span{
+font-weight:300;
+}
+
+.catalog{
+background:#ffcc33;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.search input{
+width:350px;
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+.menu a{
+margin-left:20px;
+text-decoration:none;
+color:#000;
+font-weight:500;
+}
+
+/* CATEGORY */
+
+.categories{
+display:flex;
+gap:15px;
+padding:0 40px;
+margin-bottom:30px;
+}
+
+.cat{
+background:#39d98a;
+padding:10px 25px;
+border-radius:10px;
+color:white;
+font-weight:bold;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:40px;
+}
+
+.card{
+width:250px;
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+margin-top:10px;
+font-size:20px;
+}
+
+.old{
+text-decoration:line-through;
+color:gray;
+font-size:14px;
+}
+
+.month{
+background:#ffa500;
+color:white;
+padding:5px;
+margin:8px 0;
+border-radius:5px;
+font-size:14px;
+display:inline-block;
+}
+
+.title{
+font-size:14px;
+}*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f2f2f2;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:#bd1398;
+padding:15px 40px;
+border-radius:15px;
+margin:20px;
+}
+
+.logo h2{
+color:#000;
+}
+
+.logo span{
+font-weight:300;
+}
+
+.catalog{
+background:#ffcc33;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.search input{
+width:350px;
+padding:10px;
+border-radius:8px;
+border:none;
+}
+
+.menu a{
+margin-left:20px;
+text-decoration:none;
+color:#000;
+font-weight:500;
+}
+
+/* CATEGORY */
+
+.categories{
+display:flex;
+gap:15px;
+padding:0 40px;
+margin-bottom:30px;
+}
+
+.cat{
+background:#39d98a;
+padding:10px 25px;
+border-radius:10px;
+color:white;
+font-weight:bold;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:40px;
+}
+
+.card{
+width:250px;
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+margin-top:10px;
+font-size:20px;
+}
+
+.old{
+text-decoration:line-through;
+color:gray;
+font-size:14px;
+}
+
+.month{
+background:#ffa500;
+color:white;
+padding:5px;
+margin:8px 0;
+border-radius:5px;
+font-size:14px;
+display:inline-block;
+}
+
+.title{
+font-size:14px;
 }
